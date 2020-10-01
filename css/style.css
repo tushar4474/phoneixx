@@ -1,0 +1,342 @@
+
+*{
+	margin: 0;
+	padding: 0;
+   font-family: 'Raleway', sans-serif; 
+}
+
+/* .....general css... */
+html,body{
+	height: 100%;
+}
+body{
+	color: #212226;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+}
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+}
+section{
+	background:#fff;
+	overflow: hidden;
+}
+/* ....preloader... */
+#preloader{
+	background-color:#fff;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+#status{
+	background-image: url("../img/preloader/Ellipsis-1s-200px.gif");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+/* header */
+
+ul li a{
+	color: #fff;
+}
+
+.navbar-toggler-icon{
+	color: #fff;
+}
+
+.navbar-brand{
+	color: #fff;
+}
+
+.navbar-toggler-icon{
+	color: #fff;
+}
+
+/* ....home... */
+#home{
+	background: none;
+	height: 100%;
+	position: relative;
+}
+#home-bg-video{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	top: 50%;
+	left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-image: url(../video/solo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#home-overlay{
+	background-color: rgba(0, 0, 0, 0.8);
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index:-1;
+}
+
+
+
+#home-content{
+	width: 100%;
+	height: 100%;
+	display: table;
+
+
+}
+#home-content-inner{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+} 
+ #home-heading-1{
+	 color: #fff;
+	 font-size: 26px;
+	 font-weight:800;
+	 text-transform: uppercase;
+	  margin: 0;
+	 display: inline-block; 
+}
+
+#home-heading-2{
+
+	color: #fff;
+	font-size: 65px;
+	font-weight:900;
+	text-transform: uppercase;
+	 margin: 0;
+	display: inline-block;
+} 
+#home-text{
+	color: #fff;
+	font-size:19px;
+	font-weight: 100;
+	margin: 8px 0 30px 0;
+	letter-spacing: 1px;
+}
+
+/* ....buttons... */
+
+.btn-general{
+	font-family: 'Raleway';
+	border-radius: 10px;
+	font-size: 13px;
+	text-transform: uppercase;
+	background-color: #f4c613;
+	color: #fff;
+	margin: 0 6px;
+	padding: 12px 46px 12px 46px;
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	
+}
+.btn-home{
+	
+	border:1px solid #000;
+
+}
+/* .btn-home:hover,
+.btn-home:focus{
+	color: #fff;
+	background-color: #f4c613;
+	border: 1px solid #f4c613;
+} */
+
+/* About section  */
+
+.about-box{
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.lists{
+	padding: 1em;
+	margin-top:0;
+	line-height:2.5rem; 
+
+}
+
+#about{
+	padding-bottom: 4rem;
+}
+
+/* Our Works Section */
+.work-box{
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+
+
+}
+
+
+#our-work{
+   background-color:#f4f4f4;
+   padding-bottom: 7rem;
+}
+
+.work-item{
+	padding: 60px 30px;
+	background-color: #fff;
+	box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.work-item i{
+	font-size:42px;
+	margin: 0;
+	color: #f4c613;
+}
+
+.work-item h3{
+  font-size:34;
+  margin-bottom: 10px;
+}
+
+.work-item hr{
+	width: 45px;
+	height: 3px;
+	background-color: #f4c613;
+	margin: 0 auto;
+	border: none;
+}
+
+.work-item p{
+   margin-top:20px;
+   padding: 1em;
+}
+
+.work-item:hover{
+	background-color: #f4c613;
+ }   
+
+ .work-item:hover i,
+ .work-item:hover h3,
+ .work-item:hover p{
+	color: #fff;
+ }
+
+ .work-item:hover hr{
+	background-color: #fff;
+ }
+
+ .work-item,
+ .work-item i,
+ .work-item hr {
+	 transition: all 400ms ease-in-out;
+ }
+
+ .work-item:hover i{
+	transform:  translateY(-20px);
+ }
+
+ /* brands section starts */
+ .brand-box{
+	 text-align: center;
+	 padding-top: 4rem;
+	 
+ }
+ .content-box-sm{
+	 padding: 0px 0px;
+ }
+
+ #brands-list{
+	 padding: 45px 0 0 0;
+ }
+
+ .brand{
+	 padding: 0 10px;
+	 max-width: 150px;
+	 margin: 0 auto;
+	 line-height: 100px;
+
+ }
+
+ .brand img{
+	 display: inline-block !important;
+	
+ }
+
+/* testimonial section */
+
+.testimonial-box{
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.contact-box{
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	color: #fff;
+}
+
+.form-box{
+	padding-bottom: 4rem;
+}
+
+.my-buttton{
+   padding: 10px 25px;
+   color: #fff;
+}
+
+.button-box{
+	margin-top:6rem;
+	color: #fff;
+	text-align: center;
+}
+
+#contacts{
+  background-image: url(../img/portfolio/001.jpg);
+  opacity: .6;
+  padding-bottom: 3rem;
+}
+
+
+
+#end{
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	padding: 1rem 3rem;
+}
+
+.footer h3{
+	
+	color: #fff;
+	padding: 1rem 3rem;
+}
+
+@media screeen and (max-width:668px){
+	.burger{
+		color: #fff;
+	
+	}
+	input[type='email']{
+		padding-top: 2rem;
+	}
+}
